@@ -4,38 +4,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>[Your Name]</title>
+  <title>Godswill Omonkhodion</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body  class="bg--img">
+  
   <header>
     <nav>
       <ul>
         <li>
-          <a href="index.html" aria-current="page">Home</a>
+          <!-- <a href="#home" aria-current="page">Home</a> -->
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a href="bio.html">Bio</a>
+          <a href="#bio">Bio</a>
         </li>
         <li>
-          <a href="experience.html">Experience</a>
+          <a href="#experince">Experience</a>
         </li>
-        <li>
+        <!-- <li>
           <a href="portfolio.html">Portfolio</a>
-        </li>
+        </li> -->
       </ul>
     </nav>
   </header>
+  
+  <section class="container viewHieght--100">
+    <section>
+      <div class="row align-items-center">
+        <div class="col">
+          <img src="./assets/dp.jpg" alt="">
+        </div>
+        <div class="col scroller viewHieght--100 overflow-y-auto">
+          <div id="home" class="viewHieght--100">
+            <p class="speech">Hi There</p>
+            <p class="name">I am Godswill Omonkhodion</p>
+            <p class="role">a Software Developer</p>
+          </div>
+          <section id="bio" class="viewHieght--100 bio">
+            <p class="gen--text line-height-2_1">
+              Committed professional offering exceptional experience in web application development. Possess <span class="highlight">excellent
+              communication</span>  skills and thrive as a consistent team player in diverse environments. Seeking an opportunity to
+              learn,
+              grow, and contribute to a world-class team working on groundbreaking projects. <br><br>
+          
+              In addition to my technical skills, I believe in the importance of <span class="highlight">collaboration</span> and communication. I enjoy working
+              closely with designers and stakeholders to ensure that every project aligns with the vision and goals of the client. <br><br>
+              My
+              attention to detail and commitment to best practices in web <span class="highlight">accessibility and SEO</span> help deliver high-quality results.
+          
+              When I'm not coding, you can find me exploring the latest trends in web development, contributing to open-source
+              projects, or sharing knowledge through my tech blog. I'm always eager to learn and grow in this ever-evolving field.
+          
+              Feel free to reach out if you'd like to connect or discuss potential collaborations!
+            </p>
+          </section>
+          <section id="experince" class="viewHieght--100 experince">
+            <h5>Graduate Software Developer <span class="xp_year">(2024 - Present)</span></h5>
+            <p class="speech">Barclays Uk</p>
+            <ul class="gen--text">
+              <li> Collaborate with senior developers to design, code, test, and debug software applications.</li>
+              <li> Participate in code reviews and contribute to team discussions to improve project outcomes.</li>
+              <li> Assist in gathering and analyzing requirements from stakeholders to develop effective solutions.</li>
+              <li> Maintain and enhance existing software applications, ensuring high performance and responsiveness.</li>
+              <li> Engage in ongoing learning to stay current with industry trends and technologies.</li>
+            </ul>
+          </section>
+        </div>
+        
+      </div>
+    </section>
+      <footer>
+        <p class="gen--text">Copyright &copy; 2024 Godswill Omonkhodion</p>
+      </footer>
+  </section>
 
-  <main>
-    <h1>[Your Name]</h1>
-  </main>
-
-  <footer>
-    <p>Copyright &copy; 2024 [Your Name]</p>
-  </footer>
 </body>
 
 </html>
